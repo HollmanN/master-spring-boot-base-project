@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: master-spring-boot-base-project
+logging:
+  level:
+    root: DEBUG
