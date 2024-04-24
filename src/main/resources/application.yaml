@@ -1,0 +1,29 @@
+spring:
+  data:
+    redis:
+      host: localhost
+      port: 6379
+  application:
+    name: master-spring-boot-base-project
+logging:
+  level:
+    root: DEBUG
+management:
+  endpoints:
+    enabled-by-default: false
+    web:
+      exposure:
+        include: health, info, beans, threaddump, mappings
+  endpoint:
+    info:
+      enabled: true
+    health:
+      show-details: always
+      show-components: always
+      enabled: true
+    beans:
+      enabled: true
+    threaddump:
+      enabled: true
+    mappings:
+      enabled: true
