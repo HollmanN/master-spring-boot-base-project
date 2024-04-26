@@ -13,7 +13,7 @@ management:
     enabled-by-default: false
     web:
       exposure:
-        include: health, info, beans, threaddump, mappings
+        include: health, info, beans, threaddump, mappings, prometheus
   endpoint:
     info:
       enabled: true
@@ -26,4 +26,6 @@ management:
     threaddump:
       enabled: true
     mappings:
+      enabled: true
+    prometheus:
       enabled: true

@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'com.lite-thinking'
-version = '1.0.0'
+version = '1.1.0'
 
 java {
 	sourceCompatibility = '21'
@@ -20,6 +20,9 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-actuator'
 	implementation 'org.springframework.boot:spring-boot-starter-data-redis'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	// Micrometer Prometheus
+	implementation 'io.micrometer:micrometer-registry-prometheus:1.12.5'
+
 }
 
 tasks.named('test') {
