@@ -32,6 +32,10 @@ out/
 /dist/
 /nbdist/
 /.nb-gradle/
+logs
+
+#MacOS
+.DS_Store
 
 ### VS Code ###
 .vscode/

@@ -8,6 +8,8 @@ spring:
 logging:
   level:
     root: DEBUG
+  file:
+    name: logs/master-spring-boot-base-project.log
 management:
   endpoints:
     enabled-by-default: false
